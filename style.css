@@ -1,0 +1,36 @@
+body{
+    margin: 0 50px 0 50px;
+}
+
+.tableau{
+    /* width: 45px;
+    height: 50px;
+    border: 1px solid black;
+     */
+    display: grid;
+    grid-template-columns: repeat(18, 50px);
+    grid-template-rows: repeat(7, 50px);
+   
+    margin: 0;
+    max-width: 1200px;
+    justify-content: center;
+
+}
+.element1{
+    grid-column: 1/-2;
+   
+}
+.element{
+    
+    position: relative;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.cellule{
+    
+    width: 45px;
+    height: 50px;
+   
+    text-align: center; 
+}
