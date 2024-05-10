@@ -1,15 +1,13 @@
 body{
     margin: 0 50px 0 50px;
+    padding-top: 15px;
 }
 
 .tableau{
-    /* width: 45px;
-    height: 50px;
-    border: 1px solid black;
-     */
+   
     display: grid;
-    grid-template-columns: repeat(18, 50px);
-    grid-template-rows: repeat(7, 50px);
+    grid-template-columns: repeat(18,1fr[col-start]);
+    grid-template-rows: repeat(7, 1fr [col-start]);
    
     margin: 0;
     max-width: 1200px;
@@ -17,8 +15,17 @@ body{
 
 }
 .element1{
-    grid-column: 1/-2;
+    grid-column: 1/2;
+    grid-row: 1/2;
    
+}
+.element2{
+    grid-column: 18/19;
+    
+}
+.l2{
+    grid-column: 17/18;
+    grid-row: 1/2;
 }
 .element{
     
@@ -33,4 +40,435 @@ body{
     height: 50px;
    
     text-align: center; 
+}
+.element3{
+    grid-column: 1;
+    grid-row: 2;
+}
+.element4{
+    grid-column: 2;
+    grid-row: 2;
+}
+.element5{
+    grid-column: 13;
+    grid-row: 2;
+}
+
+.element6{
+    grid-column: 14;
+    grid-row: 2;
+}
+
+.element7{
+    grid-column: 15;
+    grid-row: 2;
+}
+
+.element8{
+    grid-column: 16;
+    grid-row: 2;
+}
+.element9{
+    grid-column: 17;
+    grid-row: 2;
+}
+.element10{
+    grid-column: 18;
+    grid-row: 2;
+}
+.element11{
+    grid-column: 1;
+    grid-row: 3;
+}
+.element12{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.element13{
+    grid-column: 13;
+    grid-row: 3;
+}
+
+.element14{
+    grid-column: 14;
+    grid-row: 3;
+}
+
+.element15{
+    grid-column: 15;
+    grid-row: 3;
+}
+
+.element16{
+    grid-column: 16;
+    grid-row: 3;
+}
+.element17{
+    grid-column: 17;
+    grid-row: 3;
+}
+.element18{
+    grid-column: 18;
+    grid-row: 3;
+}
+
+.element19{
+    grid-column: 1;
+    grid-row: 4;
+}
+.element20{
+    grid-column: 2;
+    grid-row: 4;
+}
+.element21{
+    grid-column: 3;
+    grid-row: 4;
+}
+.element22{
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.element23{
+    grid-column: 5;
+    grid-row: 4;
+}
+
+.element24{
+    grid-column: 6;
+    grid-row: 4;
+}
+.element25{
+    grid-column: 7;
+    grid-row: 4;
+}
+.element26{
+    grid-column: 8;
+    grid-row: 4;
+}
+.element27{
+    grid-column: 9;
+    grid-row: 4;
+}
+.element28{
+    grid-column: 10;
+    grid-row: 4;
+}
+.element29{
+    grid-column: 11;
+    grid-row: 4;
+}
+.element30{
+    grid-column: 12;
+    grid-row: 4;
+}
+
+.element31{
+    grid-column: 13;
+    grid-row: 4;
+}
+.element32{
+    grid-column: 14;
+    grid-row: 4;
+}
+
+.element33{
+    grid-column: 15;
+    grid-row: 4;
+}
+.element34{
+    grid-column: 16;
+    grid-row: 4;
+}
+.element35{
+    grid-column: 17;
+    grid-row: 4;
+}
+.element36{
+    grid-column: 18;
+    grid-row: 4;
+}
+
+
+.element37{
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.element38{
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.element39{
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.element40{
+    grid-column: 4;
+    grid-row: 5;
+}
+
+
+.element41{
+    grid-column: 5;
+    grid-row: 5;
+}
+
+.element42{
+    grid-column: 6;
+    grid-row: 5;
+}
+
+.element43{
+    grid-column: 7;
+    grid-row: 5;
+}
+
+
+.element44{
+    grid-column: 8;
+    grid-row: 5;
+}
+
+
+.element45{
+    grid-column: 9;
+    grid-row: 5;
+}
+
+
+.element46{
+    grid-column: 10;
+    grid-row: 5;
+}
+
+.element47{
+    grid-column: 11;
+    grid-row: 5;
+}
+
+
+.element48{
+    grid-column: 12;
+    grid-row: 5;
+}
+
+
+.element49{
+    grid-column: 13;
+    grid-row: 5;
+}
+
+
+.element50{
+    grid-column: 14;
+    grid-row: 5;
+}
+
+
+.element51{
+    grid-column: 15;
+    grid-row: 5;
+}
+
+
+.element52{
+    grid-column: 16;
+    grid-row: 5;
+}
+
+
+.element53{
+    grid-column: 17;
+    grid-row: 5;
+}
+
+
+.element54{
+    grid-column: 18;
+    grid-row: 5;
+}
+
+.element55{
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.element56{
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.element57{
+    grid-column: 3;
+    grid-row: 6;
+}
+.element58{
+    grid-column: 4;
+    grid-row: 6;
+}
+.element59{
+    grid-column: 5;
+    grid-row: 6;
+}
+.element60{
+    grid-column: 6;
+    grid-row: 6;
+}
+.element61{
+    grid-column: 7;
+    grid-row: 6;
+}
+.element62{
+    grid-column: 8;
+    grid-row: 6;
+}
+.element63{
+    grid-column: 9;
+    grid-row: 6;
+}
+
+.element64{
+    grid-column: 10;
+    grid-row: 6;
+}
+.element65{
+    grid-column: 11;
+    grid-row: 6;
+}
+.element66{
+    grid-column: 12;
+    grid-row: 6;
+}
+.element67{
+    grid-column: 13;
+    grid-row: 6;
+}
+
+.element68{
+    grid-column: 14;
+    grid-row: 6;
+}
+.element69{
+    grid-column: 15;
+    grid-row: 6;
+}
+.element70{
+    grid-column: 16;
+    grid-row: 6;
+}
+.element71{
+    grid-column: 17;
+    grid-row: 6;
+}.element72{
+    grid-column: 18;
+    grid-row: 6;
+}
+
+
+.element73{
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.element74{
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.element75{
+    grid-column: 3;
+    grid-row: 7;
+}
+.element76{
+    grid-column: 4;
+    grid-row: 7;
+}
+.element77{
+    grid-column: 5;
+    grid-row: 7;
+}
+.element78{
+    grid-column: 6;
+    grid-row: 7;
+}
+.element79{
+    grid-column: 7;
+    grid-row: 7;
+}
+.element80{
+    grid-column: 8;
+    grid-row: 7;
+}
+.element81{
+    grid-column: 9;
+    grid-row: 7;
+}
+
+.element82{
+    grid-column: 10;
+    grid-row: 7;
+}
+.element83{
+    grid-column: 11;
+    grid-row: 7;
+}
+.element84{
+    grid-column: 12;
+    grid-row: 7;
+}
+.element85{
+    grid-column: 13;
+    grid-row: 7;
+}
+
+.element86{
+    grid-column: 14;
+    grid-row: 7;
+}
+.element87{
+    grid-column: 15;
+    grid-row: 7;
+}
+.element88{
+    grid-column: 16;
+    grid-row: 7;
+}
+.element89{
+    grid-column: 17;
+    grid-row: 7;
+}.element90{
+    grid-column: 18;
+    grid-row: 7;
+}
+
+.element4, .element16, .element19, .element24, .element11, .element12, .element40, .element42, .element46, .element59, .element65, .element25, .element56, .element64,  .element69{
+    background-color: rgb(247, 206, 25);
+}
+
+.element29, .element26{
+    background-color: rgb(247, 58, 0);
+}
+
+.element21,.element66, .element34,  .element55,  .element58, .element64 .element66 {
+    background-color: rgb(243, 230, 158);
+}
+
+.element20, .element22, .element23, .element35, .element50,  .element68{
+    background-color: rgb(250, 107, 12);
+}
+
+.element47, .element51, .element17{
+    background-color: rgb(250, 205, 81);
+}
+
+.element13,  .element14, .element28, .element30{
+    background-color: rgb(241, 126, 60);
+}
+
+.element15, .element27, .element33, .element48, .element38{
+    background-color: rgb(255, 238, 0);
 }
